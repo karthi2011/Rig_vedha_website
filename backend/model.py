@@ -1,8 +1,6 @@
 import os
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyDtYU2G1Nlzanf6FdhtwcEayy_Vh7hug5M'
-)
 
 # Get generator
 models_gen = genai.list_models()
